@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Java JRE e JDK&apos; to &apos;java-e-orientacao-a-objeto/src&apos;&#x0D;&#x0A;- Original project: &apos;java-e-orientacao-a-objeto&apos;&#x0D;&#x0A;- Destination element: &apos;java-e-orientacao-a-objeto/src&apos;&#x0D;&#x0A;- Original element: &apos;Java JRE e JDK&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" destination="/src" element1="Java JRE e JDK" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1659401905948" units="0" version="1.0"/>
+</session>
