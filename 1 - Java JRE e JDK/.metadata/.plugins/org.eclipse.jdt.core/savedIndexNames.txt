@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\alura\java-e-orientacao-a-objeto\1 - Java JRE e JDK\.metadata\.plugins\org.eclipse.jdt.core
-891700730.index
-1374762053.index
-1693911205.index
-1865797976.index
