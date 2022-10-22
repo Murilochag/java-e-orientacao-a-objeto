@@ -43,11 +43,18 @@ public class TesteOrdenacao {
 				}
                 System.out.println("--------------------------------------");
                 
-                NumeroDaContaComparator comparator = new NumeroDaContaComparator();
                 
-                TitularDaContaComparator titularComparator = new TitularDaContaComparator();
                 
-                lista.sort(titularComparator);
+                
+                //NumeroDaContaComparator comparator = new NumeroDaContaComparator();
+                
+                //TitularDaContaComparator titularComparator = new TitularDaContaComparator();
+                
+                lista.sort(null);
+                
+                //Collections.sort(lista, new NumeroDaContaComparator());
+                //Collections.sort(lista);
+                //Collections.reverse(lista);
                 
                 for (Conta conta : lista) {
 					System.out.println(conta + ", " + conta.getTitular().getNome());
