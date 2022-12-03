@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;TesteEscritaFileWriter.java&apos; to &apos;javaio/src/br.com.alura.java.io.teste&apos;&#x0D;&#x0A;- Original project: &apos;javaio&apos;&#x0D;&#x0A;- Destination element: &apos;javaio/src/br.com.alura.java.io.teste&apos;&#x0D;&#x0A;- Original element: &apos;br.com.alura.java.io.teste.TesteEscritaFileWriter.java&apos;" description="Copy compilation unit" destination="/src&lt;br.com.alura.java.io.teste" element1="/src&lt;br.com.alura.java.io.teste{TesteEscritaFileWriter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1667679691797" units="1" version="1.0"/>
-</session>
