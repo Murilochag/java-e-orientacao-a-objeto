@@ -29,5 +29,6 @@ public class TestandoListaDeAulas {
 
         listaDeAulas.sort(Comparator.comparing(Aula::getTempo));
         System.out.println(listaDeAulas);
+
     }
 }
