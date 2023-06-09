@@ -1,10 +1,6 @@
 package collections;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class Curso {
 
@@ -12,6 +8,8 @@ public class Curso {
     private String instrutor;
     private List<Aula> aulas = new LinkedList<>();
     private Set<Aluno> alunos = new HashSet<>();
+
+    private Map<Integer, Aluno> matriculaParaAluno = new HashMap<>();
 
 
     public Curso(String nome, String instrutor) {
@@ -54,6 +52,7 @@ public class Curso {
     
     public void matricular(Aluno aluno) {
     	this.alunos.add(aluno);
+        this.matriculaParaAluno.put(aluno.getMatricula(), aluno);
     }
     
     public Set<Aluno> getAlunos(){
@@ -62,5 +61,9 @@ public class Curso {
 
     public boolean estaMatriculado(Aluno aluno) {
         return alunos.contains(aluno);
+    }
+
+    public Aluno buscarMatriculado(int numMatricula) {
+        return matriculaParaAluno.get(numMatricula);
     }
 }
